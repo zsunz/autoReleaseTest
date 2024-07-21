@@ -7,7 +7,7 @@ os: linux
 ## overwrite: 복사할 위치에 파일이 있는 경우 대체
 files:
   - source:  /
-    destination: /home/ubuntu/app
+    destination: /home/ubuntu/app/step1
 
 # files 섹션에서 복사한 파일에 대한 권한 설정
 ## object: 권한이 지정되는 파일 또는 디렉터리
