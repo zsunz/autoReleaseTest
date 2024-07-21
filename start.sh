@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PROJECT_ROOT="/home/ubuntu/app/autoReleaseTest"
+PROJECT_ROOT="/home/ubuntu/app/step1"
 JAR_FILE="$PROJECT_ROOT/build/libs/autoReleaseTest-0.0.1-SNAPSHOT.jar"
 
 APP_LOG="$PROJECT_ROOT/application.log"
