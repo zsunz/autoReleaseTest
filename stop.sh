@@ -3,7 +3,7 @@
 PROJECT_ROOT="/home/ubuntu/app/step1/autoReleaseTest"
 JAR_FILE="$PROJECT_ROOT/build/libs/autoReleaseTest-0.0.1-SNAPSHOT.jar"
 STOP_LOG="$PROJECT_ROOT/stop.log"
-SERVICE_PID=$(pgrep -f $JAR) # 실행중인 Spring 서버의 PID
+SERVICE_PID=$(pgrep -f $JAR_FILE) # 실행중인 Spring 서버의 PID
 
 if [ -z "$SERVICE_PID" ]; then
   echo "서비스 NouFound" >> $STOP_LOG
