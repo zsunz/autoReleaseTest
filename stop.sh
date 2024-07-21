@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 PROJECT_ROOT="/home/ubuntu/app/step1/autoReleaseTest"
 JAR_FILE="$PROJECT_ROOT/build/libs/autoReleaseTest-0.0.1-SNAPSHOT.jar"
