@@ -17,6 +17,7 @@ files:
 ## group (optional): object 의 그룹 이름
 
 
+
 permissions:
   - object: /
     pattern: "**"
