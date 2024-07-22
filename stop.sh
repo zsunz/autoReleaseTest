@@ -6,7 +6,7 @@ STOP_LOG="$PROJECT_ROOT/stop.log"
 SERVICE_PID=$(pgrep -f $JAR_FILE) # 실행중인 Spring 서버의 PID
 
 if [ -z "$SERVICE_PID" ]; then
-  echo "서비스 NouFound" >> $STOP_LOG
+  echo "서비스 NonFound" >> $STOP_LOG
 else
   echo "서비스 종료 " >> $STOP_LOG
   kill "$SERVICE_PID"
