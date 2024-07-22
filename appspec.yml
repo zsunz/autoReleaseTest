@@ -40,6 +40,6 @@ hooks:
       timeout: 60
       runas: ubuntu
   ApplicationStart:
-    - location: stop.sh
+    - location: start.sh
       timeout: 60
       runas: ubuntu
